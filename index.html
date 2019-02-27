@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          <h1><font color="white">Enter stats to find out how much your favorite player is worth!</font></h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="example-form">Points Per Game</label>
+            <input class="form-control" id="points-input" name="example-form" type="text">
+          </div>
+          <div class="form-group">
+            <label for="example-form">Rebounds Per Game</label>
+            <input class="form-control" id="rbs-input" name="example-form" type="text">
+          </div>
+          <div class="form-group">
+            <label for="example-form">Assists Per Game</label>
+            <input class="form-control" id="ast-input" name="example-form" type="text">
+          </div>
+          <div class="form-group">
+            <label for="example-form">Steals Per Game</label>
+            <input class="form-control" id="stl-input" name="example-form" type="text">
+          </div>
+          <div class="form-group">
+            <label for="example-form">Blocks Per Game</label>
+            <input class="form-control" id="blk-input" name="example-form" type="text">
+          </div>
+          <div class="form-group">
+            <label for="example-form">Shooting Percentage</label>
+            <input class="form-control" id="pct-input" name="example-form" type="text">
+          </div>
+          <button id="submit" type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h1>Predicted Salary:
+          <span></span>
+        </h1>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+
+</html>
