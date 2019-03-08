@@ -4,7 +4,7 @@
   }
   
   body {
-  background-image: url("../images/nba.jpg");
+  background-image: url(nba.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   }
