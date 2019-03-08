@@ -1,18 +1,26 @@
-Final Project Proposal 
+# guacamovie
 
-Group members: Prabhdeep Kaur, Bhavan Bagri, Cameron Daniel, Dustin Markan, Eric Ziyue Song
+Project Proposal:
 
-Dataset: NBA Player Salary Dataset (2017 - 2018)
-	 NBA Player Metrics (2017 - 2018)
-	 (Joined with names)
-
-Objectives: Train models that correlates games stats to yearly salary paid to players.
+An interactive site predicting movie success based on prior movie data
 
 
-Outline:
-- ML model that takes in game stats (points, rebounds, assists, steals, blocks, 2P FG percentage etc.) as training points.
+TEAM: Cameron Daniel (lead), Dustin Markan, Eric Song, Prabhdeep Kaur, Bhavan Bagri
 
-- Build page that takes user input on stats then runs it through the model; spits out the expected salary for the player.
+Topic: Through graphical analysis, our website visually examines comparisons and presents correlations between several important movie data categories and various "success factors"(i.e. genre, gender lead, production company location, and budget against revenue and user/critic ratings). Displaying this filterable data will help determine the factors that go into a successful movie, and thus allow us to predict the performance of future movies in the box office. We measure "success" as high revenue or movie ratings.
 
-- Weights on what are the most important stats for players in different positions to earn more money (by delivering better game performence).
+Links to databases: https://www.kaggle.com/danielgrijalvas/movies
 
+https://www.boxofficemojo.com/alltime/adjusted.htm
+
+Delegation:
+
+Dustin: Mongo database setup and add-in movie functionality
+
+Bhavan: Movie revenue vs. movie genre data vizualizations
+
+Prabhdeep: Revenue ratio(total box office / total budget) and rating vs. total budget
+
+Eric: Filterable top box office blockbusters adjusted for inflation
+
+Cameron: Interactive map of critic / user ratings vs. production company base location
